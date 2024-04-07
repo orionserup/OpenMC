@@ -1,0 +1,9 @@
+#auto_saved_files#
+*.csv
+*.gbr
+fabrication/
+*.bak
+*backups/
+*.kicad_prl
+*.lck
+*.pdf
