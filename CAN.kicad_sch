@@ -6,14 +6,13 @@
 	(paper "A5")
 	(title_block
 		(title "CAN Transceiver")
-		(date "2024-04-04")
-		(rev "0.1.1")
-		(company "Nebula Labs")
+		(date "2024-04-07")
+		(rev "0.1")
 		(comment 1 "Author: Orion Serup")
-		(comment 2 "CC BY-SA")
+		(comment 2 "https://github.com/orionserup/OpenMC")
 	)
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "OpenMC:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -149,7 +148,7 @@
 				)
 			)
 		)
-		(symbol "Device:R_Small_US"
+		(symbol "OpenMC:R_Small_US"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -282,7 +281,7 @@
 				)
 			)
 		)
-		(symbol "Interface_CAN_LIN:TCAN332G"
+		(symbol "OpenMC:TCAN332G"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -945,7 +944,7 @@
 		(uuid "b808c4f7-cc25-4c13-812a-0807d2913b10")
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMC:C")
 		(at 106.68 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -999,7 +998,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0603ZRY5V5BB475"
 			(at 106.68 49.53 0)
 			(effects
 				(font
@@ -1024,7 +1023,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "OpenMC:R_Small_US")
 		(at 107.95 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1103,7 +1102,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMC:C")
 		(at 118.11 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1157,7 +1156,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C1608X5R1H104K080AA"
 			(at 118.11 49.53 0)
 			(effects
 				(font
@@ -1182,7 +1181,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_CAN_LIN:TCAN332G")
+		(lib_id "OpenMC:TCAN332G")
 		(at 92.71 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1200,7 +1199,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TCAN332G"
+		(property "Value" "TCAN334"
 			(at 94.9041 58.42 0)
 			(effects
 				(font
@@ -1237,7 +1236,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "TCAN334"
 			(at 92.71 68.58 0)
 			(effects
 				(font

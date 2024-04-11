@@ -1,0 +1,280 @@
+(footprint "Crystal_SMD_2520-4Pin_2.5x2.0mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal SERIES SMD2520/4 http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf, 2.5x2.0mm^2 package")
+	(tags "SMD SMT crystal")
+	(property "Reference" "REF**"
+		(at 0.3387 -1.88235 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "06417cc5-4c1e-4510-88b0-4c05d5e9b601")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.127)
+				(italic yes)
+			)
+		)
+	)
+	(property "Value" "40MHz"
+		(at 0.0715 -1.55675 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2b16e66b-959d-40a4-b1f5-01d71dd1666a")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "200f9371-99cd-4f8d-ae96-b87cfe39406e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af92dd9d-9095-4e29-9d36-f5c00bcc9de1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f3fcb44-3633-461e-a8df-6b3f382321fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc0b94d6-4553-4c06-ae1f-4ef07366dc71")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.65 -1.4)
+		(end -1.65 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "adc57d3d-671e-48f2-b43e-68942dd46ffb")
+	)
+	(fp_line
+		(start -1.65 1.4)
+		(end 1.65 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "628e7512-c431-4ed2-b322-23f11f8776c6")
+	)
+	(fp_line
+		(start -1.7 -1.5)
+		(end -1.7 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "92361b68-7b34-4df8-a43e-59e3d56b94fd")
+	)
+	(fp_line
+		(start -1.7 1.5)
+		(end 1.7 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "47bf058d-15b1-40c5-b0be-20747237fa97")
+	)
+	(fp_line
+		(start 1.7 -1.5)
+		(end -1.7 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "27d6b0a8-6b3e-45bb-8e4d-3680ee8abfed")
+	)
+	(fp_line
+		(start 1.7 1.5)
+		(end 1.7 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "09f95dbc-c5a5-4e17-b87a-c61a46cb727d")
+	)
+	(fp_line
+		(start -1.25 -0.9)
+		(end -1.15 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c6b28ca-7322-46e8-9ab9-1fa43920e03d")
+	)
+	(fp_line
+		(start -1.25 0)
+		(end -0.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd79d458-a23c-4971-8847-71b4255b8320")
+	)
+	(fp_line
+		(start -1.25 0.9)
+		(end -1.25 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c3d61e3-2017-4d2b-bc82-a32d94e3198b")
+	)
+	(fp_line
+		(start -1.15 -1)
+		(end 1.15 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd1d70cd-77ab-4c33-970f-c0273cd7768e")
+	)
+	(fp_line
+		(start -1.15 1)
+		(end -1.25 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06983ee2-96fe-415f-b385-d87db6fea22a")
+	)
+	(fp_line
+		(start 1.15 -1)
+		(end 1.25 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "021c81c4-7a87-4a17-80fd-f04f88c5a75b")
+	)
+	(fp_line
+		(start 1.15 1)
+		(end -1.15 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ce2d78f-905f-4593-84e3-d1ceaa5bb946")
+	)
+	(fp_line
+		(start 1.25 -0.9)
+		(end 1.25 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "067bd9b8-d1f7-46ac-9fb6-0592c3363514")
+	)
+	(fp_line
+		(start 1.25 0.9)
+		(end 1.15 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e9dcfb28-565c-436e-9e12-29a7320d0082")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "43a6e598-1be8-45f7-b91b-aa4c6e9668c5")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.875 0.7)
+		(size 1.15 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "523be320-a0f2-45a7-86e8-f0483012c00a")
+	)
+	(pad "2" smd rect
+		(at 0.875 0.7)
+		(size 1.15 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3f07b453-dad8-43e2-9327-3b6f93603b57")
+	)
+	(pad "3" smd rect
+		(at 0.875 -0.7)
+		(size 1.15 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0c5fe783-0850-453e-870e-3c9e56bfa7ef")
+	)
+	(pad "4" smd rect
+		(at -0.875 -0.7)
+		(size 1.15 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "85583d5e-8fbf-4030-a158-377046ca9c23")
+	)
+	(model "${KIPRJMOD}/lib/models/Crystal_SMD_2520-4Pin_2.5x2.0mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

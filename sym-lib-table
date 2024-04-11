@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/lib/espressif/symbols/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "OpenMC")(type "KiCad")(uri "${KIPRJMOD}/lib/OpenMC.kicad_sym")(options "")(descr ""))
+  (lib (name "TLA2528IRTER")(type "KiCad")(uri "${KIPRJMOD}/lib/TLA2528IRTER.kicad_sym")(options "")(descr ""))
 )
