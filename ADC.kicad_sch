@@ -304,85 +304,6 @@
 				)
 			)
 		)
-		(symbol "OpenMC:Fiducial"
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "FID"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fiducial"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fiducial Marker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fiducial marker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Fiducial*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fiducial_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
 		(symbol "OpenMC:TestPoint_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -2188,6 +2109,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0603ZRY5V5BB475"
+			(at 101.6 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e5d1cdce-b02f-4c1d-8543-701408cfd7dc")
 		)
@@ -2198,79 +2128,6 @@
 			(project "OpenMC"
 				(path "/a59dc926-e211-4fbd-b02e-5a07d76e97e7/f2da07b0-bf8b-4bfd-837a-6305ecc185eb"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OpenMC:Fiducial")
-		(at 72.39 45.72 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23b77962-f8c2-4e3a-8f74-513d9bc24378")
-		(property "Reference" "FID5"
-			(at 74.93 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 74.93 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 72.39 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 72.39 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 72.39 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "OpenMC"
-				(path "/a59dc926-e211-4fbd-b02e-5a07d76e97e7/f2da07b0-bf8b-4bfd-837a-6305ecc185eb"
-					(reference "FID5")
 					(unit 1)
 				)
 			)
@@ -2629,6 +2486,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C1608X5R1H104K080AA"
+			(at 80.01 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d96a9f0-196d-4e88-ae92-6ee94076a5d4")
 		)
@@ -2716,79 +2582,6 @@
 			(project "OpenMC"
 				(path "/a59dc926-e211-4fbd-b02e-5a07d76e97e7/f2da07b0-bf8b-4bfd-837a-6305ecc185eb"
 					(reference "TP33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OpenMC:Fiducial")
-		(at 175.26 140.97 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f3a9cd3-6d8c-40b4-b5fc-a4715bfc06a6")
-		(property "Reference" "FID4"
-			(at 177.8 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 177.8 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 175.26 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 175.26 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 175.26 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "OpenMC"
-				(path "/a59dc926-e211-4fbd-b02e-5a07d76e97e7/f2da07b0-bf8b-4bfd-837a-6305ecc185eb"
-					(reference "FID4")
 					(unit 1)
 				)
 			)
@@ -2918,6 +2711,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 73.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603ZRY5V5BB475"
 			(at 73.66 90.17 0)
 			(effects
 				(font

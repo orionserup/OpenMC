@@ -1236,6 +1236,17 @@
 		)
 		(uuid "fd44b5ef-6900-4f5c-b3dc-b0c2fc5f6df3")
 	)
+	(label "VIN"
+		(at 91.44 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48f86bf3-0fb1-40e7-8ca1-fae335d67d80")
+	)
 	(hierarchical_label "V_{IN}"
 		(shape input)
 		(at 63.5 62.23 180)
